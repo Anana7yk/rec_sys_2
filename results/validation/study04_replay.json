@@ -1,0 +1,343 @@
+{
+  "device": "cpu",
+  "checkpoint_inference": true,
+  "full_retraining": false,
+  "rows": [
+    {
+      "seed": 11,
+      "method": "pure",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 11,
+      "method": "pure_sft",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.7881393432617188e-07
+    },
+    {
+      "seed": 11,
+      "method": "pure_rl",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 2.384185791015625e-07
+    },
+    {
+      "seed": 11,
+      "method": "hybrid",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 11,
+      "method": "hybrid_sft",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 11,
+      "method": "hybrid_rl",
+      "contexts": 64,
+      "exact_rows": 63,
+      "rank_elements_agreement": 0.99921875,
+      "max_Top20_reward_difference": 8.744001388549805e-05
+    },
+    {
+      "seed": 11,
+      "method": "pure_full_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.655448913506774e-07
+    },
+    {
+      "seed": 11,
+      "method": "pure_full_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.4760894773147015e-07
+    },
+    {
+      "seed": 11,
+      "method": "pure_top100_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.655448913506774e-07
+    },
+    {
+      "seed": 11,
+      "method": "pure_top100_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.4760894773147015e-07
+    },
+    {
+      "seed": 11,
+      "method": "hybrid_full_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.2699661255943795e-07
+    },
+    {
+      "seed": 11,
+      "method": "hybrid_full_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 2.0634231567839834e-07
+    },
+    {
+      "seed": 11,
+      "method": "hybrid_top100_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.2699661255943795e-07
+    },
+    {
+      "seed": 11,
+      "method": "hybrid_top100_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 2.0634231567839834e-07
+    },
+    {
+      "seed": 29,
+      "method": "pure",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "pure_sft",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "pure_rl",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "hybrid",
+      "contexts": 64,
+      "exact_rows": 63,
+      "rank_elements_agreement": 0.9984375,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "hybrid_sft",
+      "contexts": 64,
+      "exact_rows": 63,
+      "rank_elements_agreement": 0.9984375,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "hybrid_rl",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "pure_full_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.4316406249381686e-07
+    },
+    {
+      "seed": 29,
+      "method": "pure_full_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.8130249024306266e-07
+    },
+    {
+      "seed": 29,
+      "method": "pure_top100_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.4316406249381686e-07
+    },
+    {
+      "seed": 29,
+      "method": "pure_top100_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.8130249024306266e-07
+    },
+    {
+      "seed": 29,
+      "method": "hybrid_full_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.4879455567662347e-07
+    },
+    {
+      "seed": 29,
+      "method": "hybrid_full_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.3338088988845698e-07
+    },
+    {
+      "seed": 29,
+      "method": "hybrid_top100_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.4879455567662347e-07
+    },
+    {
+      "seed": 29,
+      "method": "hybrid_top100_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.3338088988845698e-07
+    },
+    {
+      "seed": 47,
+      "method": "pure",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 47,
+      "method": "pure_sft",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 47,
+      "method": "pure_rl",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 47,
+      "method": "hybrid",
+      "contexts": 64,
+      "exact_rows": 63,
+      "rank_elements_agreement": 0.9984375,
+      "max_Top20_reward_difference": 2.384185791015625e-07
+    },
+    {
+      "seed": 47,
+      "method": "hybrid_sft",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 47,
+      "method": "hybrid_rl",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.7881393432617188e-07
+    },
+    {
+      "seed": 47,
+      "method": "pure_full_tol05",
+      "contexts": 64,
+      "exact_rows": 63,
+      "rank_elements_agreement": 0.9984375,
+      "max_Top20_reward_difference": 1.8006958002469986e-07
+    },
+    {
+      "seed": 47,
+      "method": "pure_full_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 2.388809203779374e-07
+    },
+    {
+      "seed": 47,
+      "method": "pure_top100_tol05",
+      "contexts": 64,
+      "exact_rows": 63,
+      "rank_elements_agreement": 0.9984375,
+      "max_Top20_reward_difference": 1.8006958002469986e-07
+    },
+    {
+      "seed": 47,
+      "method": "pure_top100_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 2.388809203779374e-07
+    },
+    {
+      "seed": 47,
+      "method": "hybrid_full_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 2.4957427979810376e-07
+    },
+    {
+      "seed": 47,
+      "method": "hybrid_full_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.6691207882502113e-07
+    },
+    {
+      "seed": 47,
+      "method": "hybrid_top100_tol05",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 2.4957427979810376e-07
+    },
+    {
+      "seed": 47,
+      "method": "hybrid_top100_reward_match",
+      "contexts": 64,
+      "exact_rows": 64,
+      "rank_elements_agreement": 1.0,
+      "max_Top20_reward_difference": 1.6691207882502113e-07
+    }
+  ]
+}

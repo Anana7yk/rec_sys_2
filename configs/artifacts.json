@@ -1,0 +1,14 @@
+{
+  "03": {
+    "filename": "study03_artifacts.zip",
+    "url": null,
+    "bytes": 2888029856,
+    "sha256": "0ad895df71cad0b2945338cbee948ce0d149972d0973efe37cb0198d45127e29"
+  },
+  "04": {
+    "filename": "submission_artifacts.zip",
+    "url": null,
+    "bytes": 1842192214,
+    "sha256": "9349524b57091c54ffdd5b3ccbdc916aa693abfab151c080b3b8107597996fec"
+  }
+}

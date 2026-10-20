@@ -1,0 +1,9 @@
+# Engineering record — supplement
+
+First repeat-final attempt stopped at the first core policy latency call: missing `latency` import. No training, coefficient selection or reward definition changed. The already computed first pure-policy output and original open marker are retained under `runs/study_04/engineering/attempt_01`; the traceback is preserved. `reports/engineering_snapshots/run_before_latency_import.py` preserves the exact sealed source. Original `SEAL.json` is unchanged. `SEAL_REPAIR_01.json` references its SHA and supersedes only the corrected driver source hash. All learned inputs/checkpoints, validation outputs and selection hashes stay identical. The fix imports the existing unchanged latency function and lets the checker verify the explicit parent seal. A CPU full-path smoke is run before the retry.
+
+No post-final tuning or search is authorized or performed. Final is already known from study03, so every new final score remains exploratory irrespective of this technical retry.
+
+Derived-only reporting repair: summary first stopped when combining an SFT timing record with its policy seed (duplicate keyword). Corrected dictionary merge preserves optimizer seed separately and uses policy seed for pairing. All fits, decisions, final outputs and seals remain unchanged; only derived tables are rebuilt. A plot-source formatting typo was caught before plotting and corrected.
+
+A derived slate summary initially averaged events before users, while the saved per-event outputs and paired bootstrap already used uniform users. Corrected the summary to macro users withinseed,added an unequal-target-count regression test and an independent summary-versus-bootstrap check. No fits, rankings, slates, choices or seals changed. Timing tables now distinguish the best-NDCG audit checkpoint from the actual reward/guard-selected deployment checkpoint.

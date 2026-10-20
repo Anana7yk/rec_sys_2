@@ -1,0 +1,174 @@
+{
+  "device": "cpu",
+  "scope": "first fixed contexts; pure/base/SFT/RL/old models; no selection or tuning",
+  "results": [
+    {
+      "seed": 11,
+      "method": "pure",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 11,
+      "method": "base",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 11,
+      "method": "sft",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 11,
+      "method": "rl_h1_raw",
+      "contexts": 64,
+      "exact_row_fraction": 0.984375,
+      "element_match_fraction": 0.99921875,
+      "max_reward_abs_difference": 8.744001388549805e-05
+    },
+    {
+      "seed": 11,
+      "method": "rl_h5_raw",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 11,
+      "method": "rl_h1_duration",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 11,
+      "method": "old_gpt",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "pure",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "base",
+      "contexts": 64,
+      "exact_row_fraction": 0.984375,
+      "element_match_fraction": 0.9984375,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "sft",
+      "contexts": 64,
+      "exact_row_fraction": 0.984375,
+      "element_match_fraction": 0.9984375,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "rl_h1_raw",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "rl_h5_raw",
+      "contexts": 64,
+      "exact_row_fraction": 0.984375,
+      "element_match_fraction": 0.99921875,
+      "max_reward_abs_difference": 0.0013490915298461914
+    },
+    {
+      "seed": 29,
+      "method": "rl_h1_duration",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 29,
+      "method": "old_gpt",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.7881393432617188e-07
+    },
+    {
+      "seed": 47,
+      "method": "pure",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 47,
+      "method": "base",
+      "contexts": 64,
+      "exact_row_fraction": 0.984375,
+      "element_match_fraction": 0.9984375,
+      "max_reward_abs_difference": 2.384185791015625e-07
+    },
+    {
+      "seed": 47,
+      "method": "sft",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 47,
+      "method": "rl_h1_raw",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.7881393432617188e-07
+    },
+    {
+      "seed": 47,
+      "method": "rl_h5_raw",
+      "contexts": 64,
+      "exact_row_fraction": 0.984375,
+      "element_match_fraction": 0.9984375,
+      "max_reward_abs_difference": 1.7881393432617188e-07
+    },
+    {
+      "seed": 47,
+      "method": "rl_h1_duration",
+      "contexts": 64,
+      "exact_row_fraction": 0.984375,
+      "element_match_fraction": 0.9984375,
+      "max_reward_abs_difference": 1.7881393432617188e-07
+    },
+    {
+      "seed": 47,
+      "method": "old_gpt",
+      "contexts": 64,
+      "exact_row_fraction": 1.0,
+      "element_match_fraction": 1.0,
+      "max_reward_abs_difference": 1.1920928966180355e-07
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "split": "train",
+    "field": "uid",
+    "equal": true,
+    "digest": "77194e094cef0e31ddf8e4479794d63380d6516a6e8700b8983808d5351e4d1a"
+  },
+  {
+    "split": "train",
+    "field": "t",
+    "equal": true,
+    "digest": "7e8fc3a6f1dbbb972647adc16de40896ed20059d6a8f27be5f3abcb10c122f43"
+  },
+  {
+    "split": "train",
+    "field": "item",
+    "equal": true,
+    "digest": "b335be8f31a4dfad9869271514b87b8a75b5c91ceb602b3e841e6c6f607a704d"
+  },
+  {
+    "split": "train",
+    "field": "y",
+    "equal": true,
+    "digest": "e52689204fd160abb877bd2dacf1d2fd4a47055b4aee3e47623c145cde5ffd87"
+  },
+  {
+    "split": "train",
+    "field": "raw",
+    "equal": true,
+    "digest": "c73838ca1e1379fa50c3ecdb02d8153563da550f8f0ceaa5cd7c858dd3bc2795"
+  },
+  {
+    "split": "train",
+    "field": "g",
+    "equal": true,
+    "digest": "1232b85a06b9a1cb1677649d407fab71e160d46066096a059e9899e45b450db8"
+  },
+  {
+    "split": "train",
+    "field": "ht",
+    "equal": true,
+    "digest": "cdd86d644f0a107c150ee630178b000792e7c683237b6a9d1925a802dc92330c"
+  },
+  {
+    "split": "train",
+    "field": "fb",
+    "equal": true,
+    "digest": "483ebd3d7021bc973a5a476f2cc884748fd3d0ad30c9ef2dffd92fe8ff3cfbda"
+  },
+  {
+    "split": "train",
+    "field": "fbmax",
+    "equal": true,
+    "digest": "5aa6c47ac6f40db7815bfa9866431721d521ef54e719b0d5e061dd7f89112ff4"
+  },
+  {
+    "split": "train",
+    "field": "repeat",
+    "equal": true,
+    "digest": "cbb69d688a8bb4f2a86afacbac2502658e58e42fb1389408548783c075c6fc4f"
+  },
+  {
+    "split": "train",
+    "field": "history_length",
+    "equal": true,
+    "digest": "5cb9119949aa5b7d8141ae827a511ae0bc47c7929259312aaf8ee784bf10b41f"
+  },
+  {
+    "split": "train",
+    "field": "omitted",
+    "equal": true,
+    "digest": "b3758ffb373f5a42350c779428729275af668d45551084761bb4233981dd457f"
+  },
+  {
+    "split": "train",
+    "field": "collapsed_raw",
+    "equal": true,
+    "digest": "c26acd364500f6ea883c75036616f1d432f15069b0e37e9ca79f1afe4740d128"
+  },
+  {
+    "split": "train",
+    "field": "collapsed_g",
+    "equal": true,
+    "digest": "6a8af3f022fa59caa0c2c1109f42a7ee10903a8cf1fcb5e2942bc54b355382f2"
+  },
+  {
+    "split": "train",
+    "field": "w",
+    "equal": true,
+    "digest": "8068059b14581aad123fe5af287fbc4150d02a89ea4bbc878f87ad69a8aeec82"
+  },
+  {
+    "split": "val",
+    "field": "uid",
+    "equal": true,
+    "digest": "e4c6bcd08a58dd317789b1deccfd3334734dd77fe080d83a30d6e9cf79712916"
+  },
+  {
+    "split": "val",
+    "field": "t",
+    "equal": true,
+    "digest": "3c37eb2787fb14dd6b39680fa3ef746ff07fd5856c15489cf4d1266ed8288b81"
+  },
+  {
+    "split": "val",
+    "field": "item",
+    "equal": true,
+    "digest": "e1be5250585eccf6a85259a271fce35c033b3c8202d5c6ee350092343276031a"
+  },
+  {
+    "split": "val",
+    "field": "y",
+    "equal": true,
+    "digest": "80044f005bd8ee282f2ee54c82994cacfd8360632bdd6be0b2447cd985f1ed09"
+  },
+  {
+    "split": "val",
+    "field": "raw",
+    "equal": true,
+    "digest": "0b20374be44991dc377885e73b20bce176d988579ba9da4eff4848f7f48f0764"
+  },
+  {
+    "split": "val",
+    "field": "g",
+    "equal": true,
+    "digest": "ff9cf453e73844afc28728e3db4f6c8042b52ca6e99c7f4469e30b97e56fc0a5"
+  },
+  {
+    "split": "val",
+    "field": "ht",
+    "equal": true,
+    "digest": "7e3fc233be7d9c4059268a9c7265168ec0d729a816fbaa1775edd49a3b0b351d"
+  },
+  {
+    "split": "val",
+    "field": "fb",
+    "equal": true,
+    "digest": "a6f73bbe12d77e6d4281e965a92268c97b9433282be849861508e269a0dfc079"
+  },
+  {
+    "split": "val",
+    "field": "fbmax",
+    "equal": true,
+    "digest": "608d514d79e7f590a5f9bdbe829d5dce266babbfc2ec350ada7465b846168f02"
+  },
+  {
+    "split": "val",
+    "field": "repeat",
+    "equal": true,
+    "digest": "72dc71ec17154aa6673e294018760147a233a83bb42324749aeb3a51d69a0f0f"
+  },
+  {
+    "split": "val",
+    "field": "history_length",
+    "equal": true,
+    "digest": "ee47c87283fb3ce0bee008354ce68f8afde30133b7205724bb7e0368a6e046e2"
+  },
+  {
+    "split": "val",
+    "field": "omitted",
+    "equal": true,
+    "digest": "1439d78662e67b2ac2a43fe1cbd9a0b69482ed4a9b1bb31d3c2b163f70eba706"
+  },
+  {
+    "split": "val",
+    "field": "collapsed_raw",
+    "equal": true,
+    "digest": "ba03ae5c9b247b80d612155e6f738a44712a78b2fb101d2cc75714e16aae37b1"
+  },
+  {
+    "split": "val",
+    "field": "collapsed_g",
+    "equal": true,
+    "digest": "07d9f8a5af5a0687e4af728cb52c99b1b1a857903faee1bdbe4b9e4a3f56efe1"
+  },
+  {
+    "split": "val",
+    "field": "w",
+    "equal": true,
+    "digest": "6c908b82b2d322121c24139b81845df9795ecf339064d4dc7054b2d8e1cd637e"
+  }
+]

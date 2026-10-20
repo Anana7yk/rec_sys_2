@@ -1,0 +1,45 @@
+{
+  "choice": {
+    "name": "dynamic128_fast",
+    "d": 128,
+    "lr": 0.0007,
+    "wd": 0.01,
+    "fixed": false,
+    "best_ndcg20": 0.0178342985490997
+  },
+  "grid": [
+    {
+      "name": "fixed128",
+      "d": 128,
+      "lr": 0.0003,
+      "wd": 0.01,
+      "fixed": true,
+      "best_ndcg20": 0.0125347169865242
+    },
+    {
+      "name": "dynamic128",
+      "d": 128,
+      "lr": 0.0003,
+      "wd": 0.01,
+      "fixed": false,
+      "best_ndcg20": 0.0139418597433321
+    },
+    {
+      "name": "dynamic128_fast",
+      "d": 128,
+      "lr": 0.0007,
+      "wd": 0.01,
+      "fixed": false,
+      "best_ndcg20": 0.0178342985490997
+    },
+    {
+      "name": "dynamic192",
+      "d": 192,
+      "lr": 0.0003,
+      "wd": 0.05,
+      "fixed": false,
+      "best_ndcg20": 0.017721261205324
+    }
+  ],
+  "final_unopened": true
+}

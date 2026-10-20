@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2403.04875",
+    "status": 200,
+    "reachable": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2505.22238",
+    "status": 200,
+    "reachable": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.02818",
+    "status": 200,
+    "reachable": true
+  },
+  {
+    "url": "https://arxiv.org/html/2505.22238v2",
+    "status": 200,
+    "reachable": true
+  },
+  {
+    "url": "https://github.com/irsafilo/KION_DATASET",
+    "status": 200,
+    "reachable": true
+  },
+  {
+    "url": "https://huggingface.co/datasets/yandex/yambda",
+    "status": 200,
+    "reachable": true
+  },
+  {
+    "url": "https://huggingface.co/datasets/yandex/yambda/resolve/dd6f3a19eef5866e346c3270e098baa641a44948/artist_item_mapping.parquet",
+    "status": 200,
+    "reachable": true
+  },
+  {
+    "url": "https://huggingface.co/datasets/yandex/yambda/resolve/dd6f3a19eef5866e346c3270e098baa641a44948/flat/50m/multi_event.parquet",
+    "status": 200,
+    "reachable": true
+  }
+]

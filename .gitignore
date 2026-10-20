@@ -1,0 +1,30 @@
+# Private/local or large reproducibility assets
+.venv*/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.zip
+*.tar*
+*.parquet
+*.pt
+*.cbm
+/data/
+/downloads/
+/artifacts/
+/runs/
+/validation/
+**/runs/
+**/inputs/
+**/reports/
+*.log
+# Compact configs/*.npy,*.npz are intentionally tracked reference row selections,
+# not dense histories, training arrays, raw source data or weights.
+
+**/catboost_info/

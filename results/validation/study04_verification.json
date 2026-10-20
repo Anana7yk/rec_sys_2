@@ -1,0 +1,17 @@
+{
+  "seal_verification": {
+    "verified_files": 343,
+    "archival_source_records_not_reverified": 15,
+    "portable_format": false
+  },
+  "input_manifest_files": 51,
+  "seal_files": 358,
+  "strict_past_and_query_markers": true,
+  "full_SFT_pool_train_only_and_disjoint_users": true,
+  "ranking_outputs_independently_verified": 138,
+  "same_initial_parameters_fixed_copy_gates_and_compute_match": true,
+  "study03_frozen_controls_reproduced": true,
+  "no_service_tokens_or_duplicate_slate_actions": true,
+  "tables_equal_saved_seed_results": true,
+  "slate_macro_user_means_equal_bootstrap_point_estimates": true
+}

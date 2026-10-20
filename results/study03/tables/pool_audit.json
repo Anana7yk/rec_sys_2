@@ -1,0 +1,14 @@
+{
+  "source_train_events": 5760580,
+  "eligible_known_targets": 5384237,
+  "groups": 4641457,
+  "known_fraction_source": 0.9361819469567301,
+  "fixed_positive_items": 63241,
+  "pool_positive_items": 131072,
+  "catalog": 131072,
+  "strict_min_history_time_margin": 5,
+  "seconds": 172.8870797501877,
+  "actual_drawn_support": "logged separately for each optimizer run",
+  "fixed_val_cold_target_mass": 0.08172782874600007,
+  "pool_val_cold_target_mass": 0.0
+}

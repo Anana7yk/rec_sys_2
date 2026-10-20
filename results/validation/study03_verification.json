@@ -1,0 +1,19 @@
+{
+  "seal_verification": {
+    "verified_files": 51,
+    "archival_source_records_not_reverified": 11,
+    "portable_format": false
+  },
+  "strict_past_arrays": true,
+  "independently_recomputed_rankings": 54,
+  "fixed_copy_gate_and_equal_actions": true,
+  "final_policy_users": 500,
+  "complete": {
+    "policies_unchanged": true,
+    "users": 500,
+    "targets": 3908,
+    "diagnostic_users": 194,
+    "reward_targets": 14906,
+    "finished_utc": "2026-10-19T11:26:31Z"
+  }
+}

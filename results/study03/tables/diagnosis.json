@@ -1,0 +1,55 @@
+{
+  "fixed_positive_coverage": 0.48249053955078125,
+  "fixed_positive_count_quantiles": {
+    "0": 0.0,
+    "0.25": 0.0,
+    "0.5": 0.0,
+    "0.75": 2.0,
+    "0.9": 4.0,
+    "0.99": 26.0,
+    "1": 374.0
+  },
+  "old_user_mass_range": [
+    0.0,
+    0.0009243491222150624
+  ],
+  "uniform_nonempty_user_mass": 0.0008396305625524769,
+  "val_history_target_repeat": 0.2394495412832386,
+  "train_history_target_repeat": 0.20900868139421366,
+  "val_known_target": 0.7633027523226545,
+  "train_known_target": 0.9053076034627101,
+  "findings": {
+    "confirmed": [
+      "fixed cap limits available positive target support",
+      "large item table and sparse positive updates",
+      "old CE sampler globally conditions on known targets, unlike uniform known-user sampler"
+    ],
+    "bugs_found": [],
+    "hypotheses": [
+      "query representation may learn copying slowly",
+      "large output embedding table may underfit rare items",
+      "distribution shift among users and periods"
+    ]
+  },
+  "old_seed_11_validation": {
+    "ce": 10.375989009526307,
+    "ndcg10": 0.015521331761934553,
+    "recall10": 0.026605504587155965,
+    "ndcg20": 0.019065821585529642,
+    "recall20": 0.04059633027522936
+  },
+  "old_seed_29_validation": {
+    "ce": 10.197311900973588,
+    "ndcg10": 0.014145656725539317,
+    "recall10": 0.02706422018348624,
+    "ndcg20": 0.01814240950358426,
+    "recall20": 0.043119266055045874
+  },
+  "old_seed_47_validation": {
+    "ce": 10.378632625812452,
+    "ndcg10": 0.01698477936755591,
+    "recall10": 0.03004587155963303,
+    "ndcg20": 0.01969565821983225,
+    "recall20": 0.0408256880733945
+  }
+}
